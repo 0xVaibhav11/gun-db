@@ -12,7 +12,9 @@ app.get("/", (_, res) => {
 });
 
 const server = app.listen(port, () => {
-  console.log(`> DEBUG: RocketShare node is listening on port ${port}`);
+  console.log(
+    `> DEBUG: RocketShare node is listening http://localhost:${port}`
+  );
 });
 
 Gun({ web: server });
