@@ -27,3 +27,6 @@ Your local gun server is ready.
 It will generate dir:radata for storing data.
 
 Your server will run at localhost:9000, you can change port in .env.local if you want
+
+# Learn about GOD DB Gun.js
+https://gun.eco/
